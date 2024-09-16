@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Melis Portfolio</title>
+    <!-- NAVIGATION  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- External CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ed552a7faf.js" crossorigin="anonymous"></script>
+
+    <!-- CSS-STYLE -->
+     <link rel="stylesheet" href="../style.css">
+     <link rel="stylesheet" href="../project.css">
+     <link rel="stylesheet" href="../style/slideshow.css">
+  
+  </head>
+  <body>
+    <div class="navigation-wrap start-header start-style">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a
+                class="navbar-brand"
+                href="./index.html"
+                target="_blank"
+                ><img src="./assets/homeAssets/220614_logo_01.png" alt=""
+              /></a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto py-4 py-md-0">
+   
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="index.html">Works</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                
+        
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  
+
+    <div class="menuContainer">
+
+      <div class="">
+       
+       <!--   <div id="menu-toggle" class="menu-toggle">
+              <i class="fa-solid fa-list fa-sm"></i>
+         </div> -->
+
+
+        <div id="leftNav" class="leftNav">
+          <nav class="sideNav">
+            <ul>
+              <li class="nav-item">
+                <a href="#overview" class="nav-link" 
+                  ><i class="fa-regular fa-circle fa-xs"></i>Overview
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#designProcess"
+                  class="nav-link"
+                  ><i class="fa-regular fa-circle fa-xs"></i>Design Process</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#userResearch" class="nav-link dropdown-btn">
+                    <i class="fa-regular fa-circle fa-xs"></i> User Research
+                    <span class="triangle-icon">&#9662;</span>
+                </a>
+                <ul class="sub-menu dropdown-container"> 
+                    <li><a href="#interview">Interview</a></li> 
+                    <li><a href="#survey">Survey</a></li> 
+                    <li><a href="#persona">Persona</a></li> 
+                    <li><a href="#affinityDiagram">Affinity Diagram</a></li> 
+
+
+            
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="#ideation" class="nav-link dropdown-btn">
+                    <i class="fa-regular fa-circle fa-xs"></i> Ideation 
+                    <span class="triangle-icon">&#9662;</span>
+                </a>
+                <ul class="sub-menu dropdown-container"> 
+                    <li><a href="#userStory">User Story</a></li> 
+                    <li><a href="#userFlow">User Flow</a></li> 
+            
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#design" class="nav-link dropdown-btn">
+                    <i class="fa-regular fa-circle fa-xs"></i> Design 
+                    <span class="triangle-icon">&#9662;</span>
+                </a>
+                <ul class="sub-menu dropdown-container"> 
+                    <li><a href="#Mid-Fi">Mid-Fi Wireframe</a></li> 
+                    <li><a href="#testingSession1">Testing Session 1</a></li> 
+                    <li><a href="#UIConcept">UI Concept</a></li> 
+                    <li><a href="#testingSession2">Testing Session 2</a></li> 
+                    <li><a href="#Hi-Fi">Hi-Fi Wireframe</a></li> 
+                </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="#delivery" class="nav-link dropdown-btn ">
+                  <i class="fa-regular fa-circle fa-xs"></i> Delivery 
+                  <span class="triangle-icon">&#9662;</span>
+              </a>
+              <ul class="sub-menu dropdown-container"> 
+                  <li><a href="#development">Development</a></li> 
+                  <li><a href="#architectureOfDatabase">Database</a></li> 
+                  <li><a href="#MPV">MPV</a></li> 
+                  <li><a href="#testingSession3">Testing Session 3</a></li> 
+              </ul>
+          </li>
+
+            
+              <li class="nav-item">
+                <a href="#poster" class="nav-link" onclick="toggleIcon(this)"
+                  ><i class="fa-regular fa-circle fa-xs"></i>Poster</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#promoVideo" class="nav-link" onclick="toggleIcon(this)"
+                  ><i class="fa-regular fa-circle fa-xs"></i>Promo Video</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+
+      <div class="">
+        <section class="" >
+          <div class="heroContent">
+            <img
+              src="../assets/majorProject/2408114_MajorProjectHeroImage_00.png"
+              alt=""
+              class="main-image"
+            />
+          </div>
+        </section>
+        <section id="overview"  class="page">
+          <div class="content2">
+            <h1 class="header">MEDIA EQUIP</h1>
+            <!-- <p class="style-light2">
+              UX CASE | UX/UI DESIGN | USERS RESEARCH | USABILITY TESTING |
+              DEVELOPMENT
+            </p> -->
+            <h2>Project Overview</h2>
+
+            <div class="flex-container2">
+              <div class="item">
+                <p class="">
+                  This project was created for the inventory room of
+                  Technological University Dublin that students borrow and lend
+                  some media equipment. The aim of the app is to facilate this
+                  operation between administrator and students.
+                </p>
+              </div>
+              <div>
+                <div class="role">
+                  <div class="">
+                    <h3>My Role</h3>
+                  </div>
+                  <div class="text">
+                    <p>Sole UX/UI and Development</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="role">
+                  <div class="">
+                    <h3>Tools</h3>
+                  </div>
+                  <div class="text">
+                    <p>
+                      Figma, Visual Studio Code,
+                      <br />
+                      Ionic Framework, Angular, MYSQL
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div>
+                <div class="role">
+                  <div class="">
+                    <h3>Duration</h3>
+                  </div>
+                  <div class="text">
+                    <p>6 months</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <section id="designProcess"  class="page">
+                  <!-- DESIGN PROCESS-->
+        <div class="content2">
+          <h2 class="">Design Process</h2>
+          <div class="table2 icons">
+            <div>
+              <div>
+                <h3 class="">User Research</h3>
+              </div>
+              <ul>
+                <li>Qualitative & Quantitative Research</li>
+                <li>Interview</li>
+                <li>Benchmark</li>
+                <li>User Persona</li>
+                <li>Affinity Diagram</li>
+              </ul>
+         
+            </div>
+            <div>
+              <div>
+                <h3 class="">Ideation</h3>
+              </div>
+              <ul>
+                <li>Concepts</li>
+                <li>User Story Map</li>
+                <li>User Flow</li>
+              </ul>
+     
+            </div>
+            <div>
+              <div>
+                <h3 class="colorHeader">Design</h3>
+              </div>
+              <ul>
+                <li>UX Concept & Wireframing</li>
+                <li>UI Concept</li>
+                <li>Prototype Testing</li>
+              </ul>
+
+            </div>
+            <div>
+              <div>
+                <h3 class="colorHeader">Delivery</h3>
+              </div>
+              <ul>
+                <li>Building Database</li>
+                <li>Development</li>
+                <li>Minimum Viable Product</li>
+                <li>Usability Testing</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        </section>
+
+        <section id="discovery" class="page">
+          <div id="userResearch" >
+          <div  class="content2">
+            <h2>User Research</h2>
+            <div>
+              <p class="text">A mixed-methods approach was utilized, 
+                combining qualitative and quantitative research techniques
+                 to gather comprehensive insights. <span>interview and survey </span> </p>
+            </div>
+            <h3>Qualitative Research</h3>
+          </div>
+
+
+          <div class="row content1">
+            <div id="interview" class="column ">
+              <div class="border">
+                <h4 class="" style="font-weight: 500;">Interview with Administrator</h4>
+                <div>
+                  <div class="flex-container1">
+                    <div class="item">
+                      <i class="fa-solid fa-circle-user fa-2x"></i>  
+                      <p class="text"> 1 person: <span>Administrator</span></p>           
+                    </div>
+                    <div class="item">
+                      <i class="fa-solid fa-clock fa-2x"></i>
+                      <p class="text"> 35 minutes</p>           
+    
+                    </div>
+                    <div class="item">
+                      <i class="fa-solid fa-circle-question fa-2x"></i>
+                      <p class="text">10 questions</p>
+                    </div>
+                  </div>
+    
+                  <p class="text">
+                    This interview was made with the administrator who was
+                    responsible for the inventory room. The interview took 35
+                    minutes nearly. Almost 10 questions were asked. The questions
+                    were separated into three sections. Due to this interview, some
+                    valuable data was acquired in order to implement these
+                    objectives on the application.
+                  </p>
+                </div>
+                <div class="text pad-right 2">
+                  <div>
+                    <p>
+                      <span>Time management</span>, return products on the right time.
+                    </p>
+                    <p><span>Control the process</span></p>
+                    <p>
+                      <span>Setting some priorities</span> , depending of the level of
+                      the students, and their modules.
+                    </p>
+                    <p>
+                      <span>Organize media equipment</span>, combine more than one
+                      product (items), creating kits.
+                    </p>
+                    <p>
+                      <span>Presenting information</span>, providing more information
+                      to manage some restrictions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+            <div id="survey" class="column  ">
+              <div class="border">
+                <h4 class="" style="font-weight: 500;">Survey with students</h4>
+                <div class="flex-container1">
+                  <div class="item">
+                    <i class="fa-solid fa-graduation-cap fa-2x"></i>                 
+                    <p class="text"> 7 students</p>           
+                  </div>
+                  <div class="item">
+                    <i class="fa-solid fa-file-lines fa-2x"></i>
+                    <p class="text"> Survey</p>           
+  
+                  </div>
+                  <div class="item">
+                    <i class="fa-solid fa-circle-question fa-2x"></i>
+                    <p class="text">5 questions</p>
+                  </div>
+                </div>
+                <p>
+                  Due to this interview, some data regarding the students'
+                  expectations and struggle while borrowing some equipment were
+                  valuable data to indicate what feature should be part of the
+                  App.
+                </p>
+                <div class="text pad-right">
+                  <p>
+                    <span>Accessible</span>, browsing equipment before going there.
+                  </p>
+                  <p><span>Control the process</span></p>
+                  <p>
+                    <span>Organization</span> of profuct, type of camera, and combined
+                    kit.
+                  </p>
+                  <p>
+                    <span>Availablity of products</span> seeing whether what equipment
+                    is available or not.
+                  </p>
+                </div>
+              </div>
+            
+            </div>
+
+          </div>
+
+ 
+ 
+  
+ 
+  
+       
+ 
+          </div>
+      
+ <!--          <div class="content2">
+            <h2>Research Objectives</h2>
+            <div>
+              <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, itaque! Ab voluptates, provident harum quam accusamus eaque ratione facilis ex.</p>
+            </div>
+          </div> -->
+
+          <div id="persona" class="content2">
+            <h3 class="">User Persona</h3>
+            <div class="text">
+                <p>
+                  User personas are based on the initial user survey, and are
+                  separated into two sections, which are general users who study
+                  photography and filming generally, and another section
+                  studying other fields.
+                </p>
+            </div>
+
+            <div class="slideshow-container ">
+              <div class="mySlides ani">
+                <h3>General Users</h3>
+
+                <img src="../assets/majorProject/UX Persona-PrimaryUser _02.png" alt="">
+                <div class="captionText">User Persona 1</div>
+
+              </div>
+
+
+              <div class="mySlides ani">
+                <h3>Other Users</h3>
+
+                <img src="../assets/majorProject/UX Persona-SecondaryUser_02.png" alt="">
+                <div class="captionText">User Persona 2</div>
+
+              </div>
+
+              
+              
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+              </div>
+          </div>
+
+
+
+
+          <div id="affinityDiagram" class="">
+            <div class="content2">
+              <h3 class="">Affinity Diagram</h3>
+              <p class="text">
+                To be identified technical relationships between products, user preferences, and frequent actions based on qualitative data gathered from interviews with students and administrators, as well as surveys.            
+              </p> 
+            </div>
+            <div class="content1 flex-container2">
+
+             <div class="item2">
+
+               <ul>
+                <h5><i class="fa-regular fa-compass"></i>Discoveries</h5>
+                
+                <li> What is the camera equipment?</li>
+                <li> What are the types of cameras?</li>
+                <li> Are they compatible with other products? </li>
+                <li> What if some of them are compatible, how is it presented in terms of the terminology and the user's needs? </li>
+              </ul>
+             </div>
+            <div class="item3">
+                  <img
+                      id=""
+                      class=""
+                      src="../assets/majorProject/240726_Affinity Diagram_00.png"
+                      alt="Affinity Diagram"
+                  />
+            </div>
+          </div>
+
+      
+          </div>
+        
+        </section>
+
+        <section id="ideation" class="page">
+         <div class="content2">       
+          <h2 class="">Ideation</h2>
+              <div>
+                
+                <div class="text">
+                  
+                    <p>
+                      In the ideation phase of my project, I used the user
+                       story mapping method to explore the user's journey in
+                        detail. By breaking down the user's interactions step
+                         by step, I was able to identify key needs, pain 
+                         points, and opportunities for improvement. This
+                          process allowed me to generate concepts that 
+                          directly address the user's core challenges, 
+                          ensuring that the final design is not only 
+                          functional but deeply aligned with their
+                           expectations and goals.
+                    </p>
+                  
+       <!--            <div class="text border-left pad-right">
+                    <ul class="boldText">
+                      <li>Home Page ( Equipment + Kits)</li>
+                      <li>Detail Page</li>
+                      <li>Search</li>
+                      <li>Cart</li>
+                      <li>Calendar</li>
+                      <li>Checkout (Submit)</li>
+                      <li>Submission</li>
+                      <li>Current booked products</li>
+                      <li>Booked products</li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+          </div> 
+          
+          <div id="userStory"  class="">
+            <div class="content2">
+            <h3 class="">User Story Map</h3>
+            
+              <div class="text">
+                  <p>
+                    The user story map, which aligns user needs with product features, was used in order to deliver the most valuable features first.
+                    <br />
+                    The initial task of the students, who are the users, is to borrow some equipment from the inventory room, which is the backbone of the user story map. Then, the major functions were broken into minor actions to complete the initial task on the map. 
+
+                  </p>
+                
+              </div>
+            </div>  
+            <div class="content1 flex-container2">
+              <div class="item2">
+                <ul>
+                  <h5><i class="fa-regular fa-compass"></i>Discoveries</h5>
+
+                 <li> It is important to consider how to display availability status of the products.</li>
+                 <li>  When and how to show the availability what if the users want to borrow more than one product?</li>
+               </ul>
+              </div>
+              <div class="item3">
+                <img
+                id="myImg1"
+                src="../assets/majorProject/270824_UserStoryMap_01.png"
+                alt=""
+              />
+              </div>
+            </div>
+
+          </div>
+   
+          
+     
+          <div id="userFlow" >
+            <div class="content2">
+              <h3 class="">User Flow</h3>
+            </div>
+            <div class="content1">
+              <div class="margintop">
+                <img
+                  id="myImg2"
+                  src="../assets/majorProject/221013_userflow_01.jpg"
+                  alt=""
+                />
+    
+                <!-- The Modal -->
+                <div id="myModal2" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close2">&times;</span>
+    
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img03" />
+    
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption"></div>
+                </div>
+              </div>
+              <div class="container2">
+                <div class="text"></div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+        <section id="design" class="page">
+          <div class="">
+            <div class="content2">
+              <h2 class="">Design</h2>
+            </div>
+            <div class="content2">
+              <h3 class="">UX Concept and Wireframing</h3>
+              <div id="Mid-Fi" class="content2">
+                <h3>Mid-Fidelity Wireframe</h3>
+                <p class="text">
+                  By making low-fi wireframes and reconsidering how effectively the
+                  affinity diagram could be utilized on the application, the mid-fi
+                  wireframe was created according to user flow. One of the important
+                  factors is presenting categories and kits. The way of implementing
+                  the segment component was considered on the home frame. The aim is
+                  to make the navigation easy and interface that works for the
+                  user's expects.
+                </p>
+              </div>
+            </div>
+  
+            <div class="content1">
+              <div class="">
+                <img
+                  class="midFi"
+                  src="../assets/majorProject/221205_Mid_fi_00.png"
+                  alt=""
+                />
+              </div>
+            </div>
+  
+            <div>
+              <div id="testingSession1" class="content2">
+                <h3 class="">Testing Session 1</h3>
+                <div>
+                  <p class="text">
+                    These answers were based on the mid-fidelity prototype as
+                    feedback. I did a survey to gather some feedback in order to
+                    measure their experience while using the mid-fidelity prototype.
+                    <br />
+                    The users found the application easy to use. They generally did
+                    not have any difficulties navigating one frame to another. In
+                    particular, I asked them to use the calendar to interpretion
+                    between selected products and the calendar. According to the
+                    result, it was observed that the approach of using it was
+                    familiar with other applications.
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="scrollable-container content2">
+                <div class="scrollable-content">
+                    <h3>Testing Session 1-Survey</h3>
+                    <p>Total 6 partipicant</p>
+                    <div>
+                      <img src="../assets/majorProject/testing session 1/240811_QT 1.png" alt="">
+                    </div>
+                    <div>
+                      <img src="../assets/majorProject/testing session 1/240811_QT 2.png" alt="">
+                    </div>
+                    <div>
+                      <img src="../assets/majorProject/testing session 1/240811_QT 3.png" alt="">
+                    </div>
+                    <div>
+                      <img src="../assets/majorProject/testing session 1/240811_QT 4.png" alt="">
+                    </div>
+                  
+                </div>
+            </div>
+    
+
+            </div>
+  
+            <div id="UIConcept">
+              <div class="content2">
+                <h3 class="">UI Concept</h3>
+                <p class="text">
+                  After researching TUD website and other applications such as TUD
+                  Sport, I revised the logo of TUD in order to use it on the Icon of
+                  the application. The aim is to make the application associated
+                  with TUD. Therefore, carrying the same corporate identity for the
+                  application is significant. For that reason, choosing colour
+                  schema for the application should have a similar concept approach
+                  as same as TUD.
+                </p>
+              </div>
+
+              <div class="content1">
+                <img
+                  class="UIConcept"
+                  src="../assets/majorProject/221205_UI_Color_LOGO_00.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+  
+            <div id="testingSession2" >
+              <div class="content2">
+                <h3 class="">Testing Session 2</h3>
+                <p class="text">
+                  This part is divided into two sections. The first focuses on observing users as they interact with the app, while the second covers meetings with my supervisor to enhance the application's cohesiveness, refine the UI design, ensure appropriate use of terminology, and create a more user-friendly experience.
+                </p>
+              </div>
+              <div class="content2 row">
+                <div class="column">
+                  <div class="item2">
+                    <ul>
+                      <h5><i class="fa-regular fa-compass"></i>Observation Method</h5>
+
+                     <li> When they took action in particular what feedback the application make the user assured about their tasks.</li>
+                     <li> Confirmation Feedback</li>
+
+                    </ul>
+                  </div>
+            
+                 
+                  <div>
+                    <img  src="../assets/majorProject/Testing Section 2/WhatsApp Image 2022-11-29 at 01.53.31.jpeg" alt="" style="transform: scale(0.5);">
+                  </div>
+                </div>
+                <div class="column">
+                  
+                    <h3>Meeting with My Supervisor</h3>
+                    <p class="text">
+                      During the meeting with my supervisor, the proper way of
+                      choosing the words was discussed since e-commerce applications
+                      were examined to be used for some sections at the beginning of
+                      the design for the application. I present the last updated
+                      high-fidelity prototype after all the valuable feedback from
+                      this session that improved the applications.</p>
+                    
+                      <div class="item2">
+                        <ul>
+                          <h5><i class="fa-regular fa-compass"></i>Discoveries</h5>
+
+                          <li>
+                            Equipment word was used instead of categories for the
+                            segments.
+                          </li>
+                          <li>
+                            Using the Bag word was found more accurate for borrowing
+                            camera equipment instead of the cart word.
+                          </li>
+                        </ul>
+                
+                     
+                      <br />
+                      
+                      </div>
+                      
+                  
+                    
+                    <div>
+                      <img src="../assets/majorProject/Testing Section 2/241108_TS2.JPG" alt="">
+
+                    </div>
+                  </div>
+
+              </div>
+              </div>
+
+
+
+          
+            </div>
+  
+            <div id="Hi-Fi">
+              <div class="content2">
+                <h3 class="">High Fidelity Wireframe</h3>
+              </div>
+              <div class="content1">
+                <div class="boxImage">
+                  <img
+                    class="midFi"
+                    src="../assets/majorProject/221205_High_fi_00.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          
+        </section>
+        <section id="delivery" class="page">
+        <!-- Development -->
+         <h2 class="content2">Delivery</h2>
+        <div class="">
+          <div class="content2">
+            <h3 id="development">Development</h3>
+          </div>
+          <div class="content2">
+            <img
+              class="imgDev"
+              src="../assets/majorProject/221211_development_00.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text content2 ">
+            <ul>
+              <li>
+                The application was developed on the Android platform, primarily because my laptop runs on a Windows system, which aligns well with Android development tools.
+              </li>
+              <li>
+                To create a hybrid application, I used the Ionic framework within a Node.js environment. This approach allowed for the use of web technologies like HTML, CSS, and TypeScript, as opposed to developing a purely native application.
+              </li>
+              <li>
+                The database architecture was built using MySQL tables. To create the REST API, I wrote PHP scripts that handle data by receiving, extracting, and inserting it into arrays, enabling seamless communication with the database.
+              </li>
+              <li>
+                For handling API data within the application, the Angular platform was utilized, leveraging its directives to iterate over objects from the API.
+              </li>
+              <li>
+                Finally, Heroku was used to host the MySQL tables and PHP scripts, making them accessible outside of the local development environment.
+              </li>
+    
+            </ul>
+          </div>
+
+          <div id="architectureOfDatabase"class="">
+            <div class="content2">
+              <h3 class="">Architecture of Database</h3>
+            </div>
+            <div class=" content2 row">
+              <div class="column  text">
+                <p>
+                  <span>
+                    The connection of Products with Equipment and Kit
+                  </span>
+                </p>
+                <div>
+                  <span>Tables Overview:</span>
+                  <ul>
+                  
+                    <li>
+                      <span>Categories and Subcategories:</span> These tables define the primary classification of products. Categories represent broad groups, while subcategories provide more specific classifications within each category.
+                    </li>
+                    <li>
+                      <span>Items Table:</span> This table contains detailed information about each product. It links products to categories and subcategories through categoryid and subcategory_id fields.
+                    </li>
+                  </ul>
+                  <span>Data Relationships:</span>
+                  <ul>
+                  <li><span>Category and Subcategory Linkage:</span> Each product in the items table is associated with a categoryid and subcategory_id, indicating its classification. For example, a product with categoryid 3 might be categorized under lenses, while a categoryid 2 might denote cameras. The same logic applies to subcategory_id for finer classification.</li>
+                  </ul>
+                  <span>Kits Creation:</span>
+                  <ul>
+                    <li>
+                      <span>Kit Identification: </span> The `kitid` column in the `items` table designates products that can be combined into kits. Products sharing the same `kitid` number are grouped together, allowing users to borrow them as a set rather than individually.
+                    </li>
+                    <li>
+                      <span>Example:</span>Products with a `kitid` of 17 are part of a specific kit. This system simplifies the borrowing process by enabling users to select an entire kit instead of choosing each item separately.
+                    </li>
+                  </ul>
+                </div>
+
+                
+                
+               
+              </div>
+              <div class="column  ">
+                <img src="../assets/majorProject/221211_table_0.png" alt="" />
+              </div>
+            </div>
+
+            <div class="row content2">
+              <div class=" text content2 column ">
+                <p>
+                  <span>
+                    Borrowing Table with the Application of the Calendar
+                  </span>
+                </p>
+                <p>
+                  When the user submits what items (products) were borrowed, the
+                  data of the users, itemId, and start and end date are posted
+                  on the borrowing table.
+                </p>
+                <br />
+                <p>
+                  One of the important parts of this table is that it works
+                  based on ItemId of the borrowed items, which means that the
+                  data of the user iterates according to how many items were
+                  borrowed on the borrowing table.
+                </p>
+                <br />
+                <p>
+                  The startDate and endDate have a significant role in the
+                  connection with the calendar on the application.
+                </p>
+                <br />
+                <div class="content2">
+                  <img src="../assets/majorProject/Calendar_00.png" alt="" />
+                </div>
+                <br />
+                <p>
+                  The calendar allows the users to choose a date range on which
+                  items (products) that the user wanted to borrow were available
+                  together, which means that the date range of items that had
+                  been borrowed before is blocked on the calendar. That is to
+                  say, those days overlap on the calendar, and this case leads
+                  the user to choose when all selected items were available
+                  together on the calendar.
+                </p>
+              </div>
+              <div class="imgColour imgDev2 column">
+                <img src="../assets/majorProject/221211_table_1.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!--the First MVP -->
+          <div id="MPV">
+            <div class="content2">
+              <h3 class="">The Minimum Viable Product</h3>
+              <div class="column ">
+                <div class="text  ">
+
+                  <ul>
+
+                    <li><i class="fa-solid fa-check"></i>
+                      
+                        Provided one prompt feedback converting the outline bag
+                        icon into a filled bag icon as visual feedback.
+                      
+                    </li>
+                    
+                    <li><i class="fa-solid fa-check"></i>
+                     
+                        Presented toast text to display at the bottom of the
+                        screen at the same time.
+                      
+                    </li>
+                   
+                    <li><i class="fa-solid fa-check"></i>
+                      Deployed Ionic Calendar
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="content1 row ">
+              <div class="column leftImage ">
+                <img
+                  class="backgroundMVP2" style="max-width: 90%; height: auto;"
+                  src="../assets/majorProject/FirstMVP_00.gif"
+                  alt=""
+                />
+              </div>
+
+
+              <div class=" column rightImage">
+                <img
+                  class="backgroundMVP2" style="max-width: 90%; height: auto;"
+                  src="../assets/majorProject/Calendar_00.jpg"
+                  alt=""
+                />
+              </div>
+
+
+            </div>
+          </div>
+
+          
+          <div id="testingSession3">
+            <div class="content2">
+              <h3 class="">Testing Session 3</h3>
+              <div>
+                  <p class="text">The APK was sent to users to test the application, and it was
+                    observed while they were using the application. The valuable
+                    findings of the testing session</p>
+              </div>
+              <div class="box2">
+                <ul>
+                  <h5><i class="fa-regular fa-compass"></i>Observation</h5>
+                  <p style="color: #E8E9EB ;">Half of the users struggled with operating the calendar. The challenge arose because the Ionic Framework's calendar, which was used, didn’t include a date range picker template. This was the only available option that allowed users to select multiple days, presenting a significant constraint.
+
+                    To improve user understanding and ease of use, revisions to the calendar were made, taking into account possible changes to make it more intuitive.</p>
+
+                  <li style="color:#E8E9EB;"><i class="fa-solid fa-check" style="color:rgb(251, 247, 25);
+                  padding: 8px;"></i>Implement changes to improve the user interface based on feedback</li>
+
+                  <li style="color:#E8E9EB;"><i class="fa-solid fa-check" style="color:rgb(251, 247, 25);
+                  padding: 8px;"></i>Replace the term "Reset" with "Clear" or "Restart" for better clarity, and replace "All Set" with "Confirmed" or "Ready" to ensure users understand the finality of their actions.</li>
+                      
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--the Second MVP -->
+          <div class="">
+            <div class="content2">
+              <h3 class="">The Revised Minimum Viable Product</h3>
+            </div>
+            <div class=" content2 row ">
+              <div class="item1 column alignCenter">
+                <div alignCenter>
+                  <img
+                  class="backgroundMVP2"
+                  src="../assets/majorProject/SecondMVP_00.gif"
+                  alt=""
+                  style="max-width: 90%; height: auto;"
+                />
+                </div>
+                <div class="alignCenter">
+                  <a class="custom-btn btn-2"  
+                  href="https://github.com/audralix/Media-Equip"   
+                  target="_blank">
+                  GitHub Link
+                 </a>
+                </div>
+              </div>
+              <div class=" content2 column">
+               <div class="text  ">
+                  <ul>
+                    <li><i class="fa-solid fa-check"></i>
+                      Added toast feedback with toggling of the bag icon.
+                    </li>
+                    
+                    <li>
+                      <i class="fa-solid fa-check"></i>
+                        Repeated the same feedback on the detail frame of the
+                        products and kits.
+                      
+                    </li>
+                    
+                    <li>
+                      <i class="fa-solid fa-check"></i>
+                        Hid the calendar to guide the users more accurately.
+                        Utilized information text about the calendar.
+                      
+                    </li>
+                   
+                    <li>
+                      <i class="fa-solid fa-check"></i>
+                        Changed some words to set the calendar. Those are
+                        "Confirm Dates" and "Clear" instead of "All Set" and
+                        "Reset".
+                      
+                    </li>
+                   
+                    <li>
+                      <i class="fa-solid fa-check"></i>Applied the side menu to display what kinds of products
+                        were borrowed before and current borrowing products.
+                        
+                    
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            
+
+
+            </div>
+          </div>
+
+
+
+        
+
+
+        </div>
+        </section>
+      
+      <section id="poster" class="page">
+        <!--Poster -->
+        <div class="">
+          <div class="content2">
+            <h2 class="">Poster</h2>
+          </div>
+          <div class="content1">
+            <img
+            class="posterImage"
+            src="../assets/majorProject/Media Equip_Major_Project_Poster_01.jpg"
+            alt=""
+          />
+          </div>
+       
+        </div>
+      </section>
+      <section id="promoVideo" class="page">
+          <!--Video -->
+          <div class="content2">
+            <h2 class="">Promo Video</h2>
+          </div>
+          <div class="content1">
+            <video class="video1" controls>
+              <source
+                src="../assets/majorProject/Media Equip_Major_Project_PromoVideo.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        
+          
+      </section>
+     
+    </div>
+
+    </div>
+
+         <!-- Footer -->
+         <footer>
+          <div class="">
+              <div class="row"> 
+                  <div class="homeIcon1">
+                    <a href="https://www.linkedin.com/in/meliskonez/">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/audralix/">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <p>
+                      Website designed and developed from scratch by Melis Konez.
+                    </p>
+                    <p>
+                      Copyright &copy; 2024, All Rights Reserved by Melis Konez.
+                    </p>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    <script src="../script.js"></script>
+    <script src="../js/slideshow.js"></script>
+    <script src="../js/sideNav.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper.js (for Bootstrap 4) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
