@@ -23,6 +23,9 @@
     <!-- CSS-STYLE -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="canvas.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+
   </head>
   <body>
     <div class="wrapper">
@@ -81,7 +84,9 @@
     
         <!-- --- Hero --- -->
         <section id="home" class="info-section" >
-          <canvas id="myCanvas"></canvas>
+          <div class="canvas-container">
+            <canvas id="myCanvas" class="responsive-canvas"></canvas>
+          </div>
     
           <div class="hero">
             <div class="container" style="height: 100vh; display: grid">
@@ -114,7 +119,7 @@
         </section>
         <script src="landingPage.js"></script>
     
-        <section id="works"  class="project">
+        <secion id="works"  class="project">
           <div class="container" >
             <section class="filters">
               <!-- <button id="all" class="active" autofocus="true">all</button> -->
@@ -127,8 +132,27 @@
             <section class="col portfolio" style="min-height: 100vh; display: grid">
               <section class="portfolio_item card UX">
                 <div class="card_content_image imageZoom">
+                  <a href="./UX-UI Cases/hastacProject.html">
+                    <img class="" src="./assets/241119_UX_Hastac_Website/241119_1-1.png" alt=""
+                  /></a>
+                </div>
+    
+                <div class="card_content">
+                  <a href="./UX-UI Cases/hastacProject.html">
+                    <h3 class="project-title image-title">Hastac Machine </h3>
+                  </a>
+    
+                  <div class="category-text">
+                    UX/UI Design, Website Design, Development
+                  </div>
+                  <p class="summary-snap-text">
+                    Redesign the Hastaç Makine website, emphasizing the company's craftsmanship and experience.</p>
+                </div>
+              </section>
+              <section class="portfolio_item card UX">
+                <div class="card_content_image imageZoom">
                   <a href="./UX-UI Cases/majorProject.html">
-                    <img class="" src="./assets/homeAssets/243008_MajorProject_00.png" alt=""
+                    <img class="" src="./assets/homeAssets/240918_MajorProject_00.jpg" alt=""
                   /></a>
                 </div>
     
@@ -144,30 +168,11 @@
                     This project was developed for an inventory room, where students borrow media equipment.                  </p>
                 </div>
               </section>
-       <!--        <section class="portfolio_item card UX">
-                <div class="card_content_image imageZoom">
-                  <a href="/UX-UI Cases/Major Project/majorProject.html">
-                    <img class="" src="./assets/homeAssets/240626_GlitteriNailArt_00.png" alt=""
-                  /></a>
-                </div>
-    
-                <div class="card_content">
-                  <a href="/UX-UI Cases/Major Project/majorProject.html">
-                    <h3 class="project-title image-title">Glitterati Nails</h3>
-                  </a>
-    
-                  <div class="category-text">
-                    UX/UI Design, Product Design, Development
-                  </div>
-                  <p class="summary-snap-text">
-                    The goal of this project is to establish a cohesive brand identity and website concept.
-                  </p>
-                </div>
-              </section> -->
+
               <section class="portfolio_item card UX">
                 <div class="card_content_image imageZoom">
                   <a href="UX-UI Cases/flickrProject.html">
-                    <img class="" src="./assets/homeAssets/260626_Flickr_00.png" alt=""
+                    <img class="" src="./assets/homeAssets/240918_Flickr_ thumbnail_00.jpg" alt=""
                   /></a>
                 </div>
     
