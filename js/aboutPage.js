@@ -84,7 +84,7 @@ const tagImages = {
     'Three Cats': [
         { src: './assets/aboutAssets/Asset 17.png', top: '50%', left: '150%', animation: 'slide', class: 'behind' },
         { src: './assets/aboutAssets/Asset 16.png', top: '25%', left: '80%', animation: 'slide-fade', class: 'behind' },
-        { src: './assets/aboutAssets/Asset 12.png', top: '75%', left: '-20%', animation: 'bounce', class: 'front' }
+        { src: './assets/aboutAssets/Asset 12.png', top: '80%', left: '-20%', animation: 'bounce', class: 'front' }
     ],
     'Coffee Drinker': [{ src: './assets/aboutAssets/Asset 22.png', top: '68%', left: '0%', class: 'front' }],
     'Nature Lover': [{ src: './assets/aboutAssets/Asset 14.png', top: '20%', left: '-10%', class: 'front' }],
