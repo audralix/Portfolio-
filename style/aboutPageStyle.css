@@ -30,7 +30,7 @@ body {
 
 .main-image-container {
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 33%;
     transform: translate(-50%, -50%);/* Center based on its own size */
     
